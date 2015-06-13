@@ -1,0 +1,6 @@
+{
+  "name": "nw-boilerplate",
+  "dependencies": {
+    "jquery": "~1.11.1"
+  }
+}

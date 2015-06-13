@@ -1,0 +1,23 @@
+{
+  "name": "nw-boilerplate",
+  "description": "A boilerplate for node-webkit applications",
+  "version": "0.1.0",
+  "author": "Russel Mahmud <russel_1237@hotmail.com>",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "frame": false,
+    "show": false,
+    "title": "NW.js Boilerplate",
+    "width": 1100,
+    "height": 618,
+    "min_width": 800,
+    "min_height": 500,
+    "resizable": true,
+    "position": "center"
+  },
+  "webkit": {
+    "page-cache": false,
+    "plugin": true
+  }
+}

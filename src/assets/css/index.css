@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+/* @group Main */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body{
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  line-height: 1;
+  color: #fff;
+  background: #151a1f;
+  -webkit-font-smoothing: antialiased;
+  font: 1.0em Calibri, Arial, sans-serif;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+#wrapper{
+  display: block;
+  top: 30px;
+  text-align: center;
+}
+
+/* @end */
+
+/* @group Header */
+
+#header{
+  -webkit-touch-callout: none;
+  user-select: none;
+  height: 30px;
+  display: block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 59, 67, 0.80)), to(rgba(38, 39, 44, 0.80)));
+  background-image: -webkit-linear-gradient(top, rgba(59, 59, 67, 0.80), rgba(38, 39, 44, 0.80));
+  background-image: -moz-linear-gradient(top, rgba(59, 59, 67, 0.80), rgba(38, 39, 44, 0.80));
+  background-image: -o-linear-gradient(top, rgba(59, 59, 67, 0.80), rgba(38, 39, 44, 0.80));
+  background-image: -ms-linear-gradient(top, rgba(59, 59, 67, 0.80), rgba(38, 39, 44, 0.80));
+  background-image: linear-gradient(top, rgba(59, 59, 67, 0.80), rgba(38, 39, 44, 0.80));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#3b3b43', EndColorStr='#26272c');
+  border-bottom: 1px solid #000;
+}
+
+#header .title{
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 30px;
+  color: #fff;
+  text-shadow: rgba(0,0,0,0.5) 0 -1px 0;
+  font-size: 0.85em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#header .window-controls{
+  height: 30px;
+  z-index: 9999;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+#header .window-controls .window-button{
+  cursor: pointer;
+  background-color: #000;
+  border-radius: 100px 100px 100px 100px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  -webkit-app-region: no-drag;
+}
+
+/*#header .window-controls .window-button.close,*/
+#header .window-controls .window-button.close:hover{
+  background-color: #ff2600;
+}
+
+/*#header .window-controls .window-button.minimize,*/
+#header .window-controls .window-button.minimize:hover{
+  background-color: #ffe900;
+}
+
+/*#header .window-controls .window-button.maximize,*/
+#header .window-controls .window-button.maximize:hover{
+  background-color: #10cf00;
+}
+
+#content{
+  background-color: #151a1f;
+}

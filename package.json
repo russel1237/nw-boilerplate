@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-node-webkit-builder": "latest",
+    "bower": "~1.4.1",
+    "grunt-shell": "~1.1.2"
+  },
+  "scripts": {
+    "postinstall": "bower install && cd ./src  &&  npm install"
+  }
+}
